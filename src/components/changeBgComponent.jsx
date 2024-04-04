@@ -24,13 +24,13 @@ export function ChangeBg(){
                     <div className="absolute w-full h-full bg-sky-100 opacity-50 cursor-pointer" onClick={openDisplay}>
                         <br></br>
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-10 opacity-100 absolute border border-gray-900 w-2/3 h-2/3 lg:w-1/3 bg-gray-700 rounded-lg">
+                    <div className="flex flex-col justify-center items-center gap-10 opacity-100 absolute border border-gray-900 w-2/3 h-2/3 lg:w-1/3 bg-gray-700 rounded-lg text-wrap">
                        
                         <h2 className="text-slate-100 opacity-100 text-3xl">
                             Change The WallPaper
                         </h2>
 
-                        <h3>I suggest only paste a full ural</h3>
+                        <h3>I suggest only paste a full url</h3>
 
                         <input placeholder="Paste the url" type="text" className="text-black w-3/4 rounded-lg" value={urlInput.current} onChange={e=>urlInput.current=e.target.value}/>
                         
