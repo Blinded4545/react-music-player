@@ -21,10 +21,10 @@ export function ChangeBg(){
         if(display){
             return(
                 <div className="h-screen w-screen flex justify-center items-center">
-                    <div className="absolute w-full h-full bg-sky-100 opacity-45 cursor-pointer" onClick={openDisplay}>
+                    <div className="absolute w-full h-full bg-sky-100 opacity-50 cursor-pointer" onClick={openDisplay}>
                         <br></br>
                     </div>
-                    <div className="flex flex-col justify-center items-center gap-10 opacity-100 absolute border border-gray-900 w-1/3 h-2/3 bg-gray-700 rounded-lg">
+                    <div className="flex flex-col justify-center items-center gap-10 opacity-100 absolute border border-gray-900 w-2/3 h-2/3 lg:w-1/3 bg-gray-700 rounded-lg">
                        
                         <h2 className="text-slate-100 opacity-100 text-3xl">
                             Change The WallPaper
