@@ -8,7 +8,7 @@ export function CardGen({title="", author, songDuration, imgPath="", changeSlide
     return(
         <article className="flex flex-col">
             <header>
-                <img src={cardData[3]} alt="Song picture" className="size-96 rounded-lg"/>
+                <img src={cardData[3]} alt="Song picture" className=" size-56 rounded-lg sm:size-96"/>
             </header>
             <section className="mt-5 mb-2">
                 <strong>

@@ -10,11 +10,11 @@ document.getElementById("root").style.backgroundImage="url('https://github.com/B
 
 root.render(
 
-  <div className='flex' style={{height: "100%"}}>
+  <div className='flex' style={{height: "100vh", width: "100%" }}>
     <div className='absolute'>
       <ChangeBg />
     </div>
-    <div className="flex justify-center items-center" style={{height: "100%"}}>
+    <div className="flex justify-center items-center w-full" style={{height: "100%"}}>
       <CarouselComponent/>
     </div>
   </div>

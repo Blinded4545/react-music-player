@@ -92,9 +92,9 @@ export function CarouselComponent(){
 
     return (
         <div className="w-full">
-            <div className="w-full flex flex-row items-center">
+            <div className="w-full flex flex-row items-center justify-center">
                 <div 
-                    className="m-5 cursor-pointer ease-in-out transition-all duration-200 hover:scale-150" 
+                    className="hidden lg:block lg:m-5 lg:cursor-pointer lg:ease-in-out lg:transition-all lg:duration-200 hover:scale-150" 
                     onClick={()=>scrollToImage("prev")}
                 >
                     <Icon path={mdiArrowLeft} size={2}/>
@@ -122,7 +122,7 @@ export function CarouselComponent(){
                     </ul>
                 </div>
                 <div 
-                className="m-5 cursor-pointer ease-in-out transition-all duration-200 hover:scale-150" 
+                className="hidden lg:block lg:m-5 lg:cursor-pointer lg:ease-in-out lg:transition-all lg:duration-200 hover:scale-150"
                 onClick={()=>scrollToImage("next")}
                 >
                     <Icon path={mdiArrowRight} size={2}/>
