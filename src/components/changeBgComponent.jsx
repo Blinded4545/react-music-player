@@ -30,7 +30,7 @@ export function ChangeBg(){
                             Change The WallPaper
                         </h2>
 
-                        <h3>I suggest only paste a full url</h3>
+                        <h3>I suggest only paste a full ural</h3>
 
                         <input placeholder="Paste the url" type="text" className="text-black w-3/4 rounded-lg" value={urlInput.current} onChange={e=>urlInput.current=e.target.value}/>
                         
