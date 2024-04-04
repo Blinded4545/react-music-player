@@ -16,7 +16,7 @@ export function ProgressBar({duration, chnSlide}){
     //const [paused, setPaused] = useState(true);
     const pausedState = useRef(true)
 
-    const [pausedIcon, setPausedIcon] = useState(mdiPlay);
+    const [pausedIcon, setPausedIcon] = useState(mdiPause);
 
     const PercentPerMinute = duration/100
 
@@ -65,9 +65,9 @@ export function ProgressBar({duration, chnSlide}){
         pausedState.current = !pausedState.current;
         console.log(pausedState.current);
         if(pausedState.current){
-            setPausedIcon(mdiPause)
-        }else{
             setPausedIcon(mdiPlay)
+        }else{
+            setPausedIcon(mdiPause)
         }
     }
 
