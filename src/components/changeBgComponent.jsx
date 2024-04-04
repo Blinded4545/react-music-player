@@ -51,7 +51,7 @@ export function ChangeBg(){
     }
 
     return (
-        <div>
+        <div className="absolute">
             <div className='m-6 absolute cursor-pointer ease-in-out transition-all duration-200 hover:scale-150' onClick={openDisplay}>
                 <Icon path={mdiCog} size={1.3}/>
             </div>

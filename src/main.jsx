@@ -14,7 +14,7 @@ root.render(
     <div className='absolute'>
       <ChangeBg />
     </div>
-    <div className="flex justify-center items-center w-full" style={{height: "100%"}}>
+    <div className="flex justify-center items-center w-full h-full">
       <CarouselComponent/>
     </div>
   </div>
